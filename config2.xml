@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHESSBOARDS >
+ <CHESSBOARD>
+  <WHITEPIECES>
+   <comando id="G00" modal asterisco exp="Posicionamiento rápido">
+   <param COLUMN="G" ROW="1" />
+   </comando>
+   <comando id="G01" modal >
+   
+   <BISHOP><POSITION COLUMN="D" ROW="6" /></BISHOP>
+   <ROOK><POSITION COLUMN="E" ROW="1" /></ROOK>
+   <PAWN><POSITION COLUMN="A" ROW="4" /></PAWN>
+   <PAWN><POSITION COLUMN="B" ROW="3" /></PAWN>
+   <PAWN><POSITION COLUMN="C" ROW="2" /></PAWN>
+   <PAWN><POSITION COLUMN="F" ROW="2" /></PAWN>
+   <PAWN><POSITION COLUMN="G" ROW="2" /></PAWN>
+   <PAWN><POSITION COLUMN="H" ROW="5" /></PAWN>
+  </WHITEPIECES>
+  <BLACKPIECES>
+   <KING><POSITION COLUMN="B" ROW="6" /></KING>
+   <QUEEN><POSITION COLUMN="A" ROW="7" /></QUEEN>
+   <PAWN><POSITION COLUMN="A" ROW="5" /></PAWN>
+   <PAWN><POSITION COLUMN="D" ROW="4" /></PAWN>
+  </BLACKPIECES>
+ </CHESSBOARD>
+ <CHESSBOARD>
+  ...
+ </CHESSBOARD>
+</CHESSBOARDS>

@@ -1,0 +1,46 @@
+
+
+
+G17 G02 (G03) X+/-4.3 Y+/-4.3 I+/-4.3 J+/-4.3 F5.4
+G18 G02 (G03) X+/-4.3 Z+/-4.3 I+/-4.3 K+/-4.3 F5.4
+G19 G02 (G03) Y+/-4.3 Z+/-4.3 J+/-4.3 K+/-4.3 F5.4
+
+G02 (G03) X+/-4.3 Z+/-4.3 I+/-4.3 K+/-4.3 Y+/-4.3 J4.3 F5.4 Plano XZ
+G02 (G03) Y+/-4.3 Z+/-4.3 J+/-4.3 K+/-4.3 X+/-4.3 I4.3 F5.4 Plano YZ
+
+G02 (G03) A+/-3.3 I+/-4.3 J+/-4.3 Z+/-4.3 K4.3 F5.4 Coordenadas polares. Plano XY
+G02 (G03) A+/-3.3 I+/-4.3 K+/-4.3 Y+/-4.3 J4.3 F5.4 Coordenadas polares. Plano XZ
+G02 (G03) A+/-3.3 J+/-4.3 K+/-4.3 X+/-4.3 I4.3 F5.4 Coordenadas polares. Plano YZ
+
+
+
+G08 X+/-4.3 Y+/-4.3 Cartesianas plano XY
+G08 R+/-4.3 A+/-4.3 Polares
+
+G09 X+/-4.3 Y+/-4.3 I+/-4.3 J+/-4.3 Cartesianas plano XY
+G09 R+/-4.3 A+/-4.3 I+/-4.3 J+/-4.3 Polares plano XY
+
+N4 G25 N4.4.2
+
+G33 Z+/-4.3 K3.4 mm
+G33 Z+/-3.4 K2.4 pulgadas
+
+
+G64 X Y B I C F Q U linea2="R A B K" linea3="K I"
+G72 K2.4
+G72 V,W,X,Y,Z 2.4
+G73 A+/-3.3
+G75 (V+/-4.3) (W+/-4.3) X+/-4.3 Y+/-4.3 Z+/-4.3
+
+
+G8? G(98 o 99) (V+/-4.3) (W+/-4.3) X+/-4.3 Y+/-4.3 Z+/-4.3 I+/-4.3 K2.2 N2
+
+G93 I+/-4.3 J+/-4.3 mm
+G93 I+/-3.4 J+/-3.4 pulgadas
+
+
+
+
+
+
+

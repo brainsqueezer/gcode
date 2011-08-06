@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<comandos>
+<comando id="G00" tipo="Accion" modal="true" asterisco="true" tip="Posicionamiento rápido"></comando>
+<comando id="G01" tipo="Accion" modal="true" tip="Interpolación lineal"></comando>
+<comando id="G02" tipo="Accion" modal="true" tip="Interpolación circular (helicoidal) a derechas (sentido horario)"></comando>
+<comando id="G03" tipo="Accion" modal="true" tip="Interpolación circular (helicoidal) a izquierdas (sentido anti-horario)"></comando>
+
+<comando id="G04" tipo="Parametro" modal="false" tip="Temporarización, duración programada mediante K"></comando>
+<comando id="G05" tipo="Parametro" modal="true" tip="Trabajo en arista matada"></comando>
+<comando id="G06" tipo="Parametro" modal="false" tip="Interpolación circular con programación delcentro del arco en coordenadas absolutas"></comando>
+<comando id="G07" tipo="Parametro" modal="true" tip="Trabajo en arista viva"></comando>
+<comando id="G08" tipo="Parametro" modal="false" tip="Trayectoriacircular tangente a la trayectoria anterior"></comando>
+<comando id="G09" tipo="Parametro" modal="false" tip="Trayectoria circular definida mediante tres puntos"></comando>
+<comando id="G10" tipo="Parametro" modal="true" tip="Anulación imagen espejo"></comando>
+
+<comando id="G11" tipo="Accion" modal="true" tip="Imagen espejo en el eje X"></comando>
+<comando id="G12" tipo="Accion" modal="true" tip="Imagen espejo en el eje Y"></comando>
+<comando id="G13" tipo="Accion" modal="true" tip="Imagen espejo en el eje Z"></comando>
+
+
+<comando id="G17" tipo="Parametro" modal="true" tip="Selección del plano XY"></comando>
+<comando id="G18" tipo="Parametro" modal="true" tip="Selección del plano XZ"></comando>
+<comando id="G19" tipo="Parametro" modal="true" tip="Selección del plano YZ"></comando>
+
+<comando id="G20" tipo="Control" modal="false" tip="Llamada a la subrutina estándar"></comando>
+<comando id="G21" tipo="Control" modal="false" tip="Llamada a la subrutina paramétrica"></comando>
+<comando id="G22" tipo="Control" modal="false" tip="Definición de subrutina estándar"></comando>
+<comando id="G23" tipo="Control" modal="false" tip="Definición de subrutina paramétrica"></comando>
+<comando id="G24" tipo="Control" modal="false" tip="Final de subrutina"></comando>
+<comando id="G25" tipo="Control" modal="false" tip="Salto/llamada incondicional"></comando>
+<comando id="G26" tipo="Control" modal="false" tip="Salto/llamada condificional si es igual a 0"></comando>
+<comando id="G27" tipo="Control" modal="false" tip="Salto/llamada condicional si no es igual a 0"></comando>
+<comando id="G28" tipo="Control" modal="false" tip="Salto/llamada condicional si es menor"></comando>
+<comando id="G29" tipo="Control" modal="false" tip="Salto/llamada condicional si es igual o mayor"></comando>
+<comando id="G30" tipo="Control" modal="false" tip="Visualizar código de error definido mediante K"></comando>
+<comando id="G31" tipo="Control" modal="false" tip="Guardar origen coordenadas guardado mediante G31"></comando>
+
+<comando id="G33" tipo="Accion" modal="true" tip="Roscado electrónico"></comando>
+
+<comando id="G36" tipo="Parametro" modal="false" tip="Redondeo controlado de aristas"></comando>
+<comando id="G37" tipo="Parametro" modal="false" tip="Entrada tangencial"></comando>
+<comando id="G38" tipo="Parametro" modal="false" tip="Salida tangencial"></comando>
+<comando id="G39" tipo="Parametro" modal="false" tip="Achaflanado"></comando>
+
+<comando id="G40" tipo="Parametro" modal="true" tip="Anulación de compensación de radio"></comando>
+<comando id="G41" tipo="Parametro" modal="true" tip="Compensación de radio a izquierdas"></comando>
+<comando id="G42" tipo="Parametro" modal="true" tip="Compensación de radio a derechas"></comando>
+<comando id="G43" tipo="Parametro" modal="true" tip="Compensación de longitud"></comando>
+<comando id="G44" tipo="Parametro" modal="true" tip="Anulación de compensación de longitud"></comando>
+<comando id="G47" tipo="Parametro" modal="true" tip="Tratamiento de bloque unico"></comando>
+<comando id="G48" tipo="Parametro" modal="true" tip="Anulación de tratamiento de bloque unico"></comando>
+<comando id="G49" tipo="Parametro" modal="true" tip="FEED-RATE programable"></comando>
+
+<comando id="G50" tipo="Control" modal="false" tip="Carga de dimensiones de herramienta en la tabla"></comando>
+<comando id="G52" tipo="Control" modal="false" tip="Comunicación con la REDLOCAL FAGOR"></comando>
+<comando id="G53" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G54" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G55" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G56" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G57" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G58" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+<comando id="G59" tipo="Control" modal="true" tip="Traslados de origen"></comando>
+
+<comando id="G64" tipo="Parametro" modal="false" tip="Mecanizado múltiple en arco"></comando>
+<comando id="G65" tipo="Parametro" modal="false" tip="Ejecución independiente de un eje"></comando>
+<comando id="G70" tipo="Parametro" modal="true" tip="Programación en pulgadas"></comando>
+<comando id="G71" tipo="Parametro" modal="true" tip="Programación en milímetros"></comando>
+
+<comando id="G72" tipo="Control" modal="true" tip="Factor de escala"></comando>
+<comando id="G73" tipo="Control" modal="true" tip="Giro sistema de coordenadas"></comando>
+<comando id="G74" tipo="Control" modal="false" tip="Búsqueda automatica de referencia-máquina"></comando>
+
+<comando id="G75" tipo="Parametro" modal="false"    tip="Trabajo con palpador"></comando>
+<comando id="G75 N2" tipo="Parametro" modal="false" tip="Ciclos fijos de palpador"></comando>
+<comando id="G76" tipo="Parametro" modal="false"    tip="Creación automática de bloques"></comando>
+<comando id="G77" tipo="Parametro" modal="true"     tip="Acoplamiento de 4o eje W o del 5o eje V con su asociado"></comando>
+<comando id="G78" tipo="Parametro" modal="true"     tip="Anulación de G77"></comando>
+<comando id="G79" tipo="Parametro" modal="true"     tip="Ciclo fijo definido por el usuario"></comando>
+<comando id="G80" tipo="Parametro" modal="true"     tip="Anulación de ciclos fijos"></comando>
+
+
+<comando id="G81" tipo="Accion" modal="true" tip="Ciclo fijo de taladrado"></comando>
+<comando id="G82" tipo="Accion" modal="true" tip="Ciclo fijo de taladrado con temporarizacion"></comando>
+<comando id="G83" tipo="Accion" modal="true" tip="Ciclo fijo de taladrado profundo"></comando>
+<comando id="G84" tipo="Accion" modal="true" tip="Ciclo fijo de roscado con macho"></comando>
+<comando id="G85" tipo="Accion" modal="true" tip="Ciclo fijo de escariado"></comando>
+<comando id="G86" tipo="Accion" modal="true" tip="Ciclo fijo de madrinado con retroceso en G00"></comando>
+<comando id="G87" tipo="Accion" modal="true" tip="Ciclo cajera rectangular"></comando>
+<comando id="G88" tipo="Accion" modal="true" tip="Ciclo cajera circular"></comando>
+<comando id="G89" tipo="Accion" modal="true" tip="Ciclo fijo de madrinado conretroceso en G01"></comando>
+
+<comando id="G90" tipo="Parametro" modal="true" tip="Programación de cotas absolutas"></comando>
+<comando id="G91" tipo="Parametro" modal="true" tip="Programación de cotas incrementales"></comando>
+<comando id="G92" tipo="Parametro" modal="false" tip="Preselección de cotas"></comando>
+<comando id="G93" tipo="Parametro" modal="false" tip="Preselección de oreigen de coordenadas polares"></comando>
+<comando id="G94" tipo="Parametro" modal="true" tip="Velocidad de avance F en mm/minuto (0,1pulgadas/minuto)"></comando>
+<comando id="G95" tipo="Parametro" modal="true" tip="Velocidad de avance F en mm/revolución (0,1pulgadas/revolución)"></comando>
+<comando id="G96" tipo="Parametro" modal="true" tip="Velocidad de avance superficial constante"></comando>
+<comando id="G97" tipo="Parametro" modal="true" tip="Velocidad de avance del centro de la herramienta constante"></comando>
+<comando id="G98" tipo="Parametro" modal="true" tip="Vuelta de la herramienta al plano de partida al terminar un ciclo fijo"></comando>
+<comando id="G99" tipo="Control" modal="true" tip="Vuelta de la herramienta al plano de referencia (de acercamiento) al terminar un ciclo fijo."></comando>
+
+
+
+
+
+
+<comando id="M00" tipo="Auxiliar" modal="false" tip="Parada de programa"></comando>
+<comando id="M01" tipo="Auxiliar" modal="false" tip="Parada condicional del programa"></comando>
+<comando id="M02" tipo="Auxiliar" modal="false" tip="Final de programa"></comando>
+<comando id="M30" tipo="Auxiliar" modal="false" tip="Final de programa con vuelta al comienzo"></comando>
+<comando id="M03" tipo="Auxiliar" modal="false" tip="Arranque del cabezal a derechas (sentido horario)"></comando>
+<comando id="M04" tipo="Auxiliar" modal="false" tip="Arranque del cabezal a izquierdas (sentido antihorario)"></comando>
+<comando id="M05" tipo="Auxiliar" modal="false" tip="Parada del cabezal"></comando>
+<comando id="M06" tipo="Auxiliar" modal="false" tip="Cambio de herramienta"></comando>
+<comando id="M19" tipo="Auxiliar" modal="false" tip="Salida analogica S residual para cambio de herramienta y parada orientada del cabezal"></comando>
+
+<comando id="M22" tipo="Auxiliar" modal="false" tip="Pallets: Cargar la pieza en extremo 1 de la mesa (eje x)"></comando>
+<comando id="M23" tipo="Auxiliar" modal="false" tip="Pallets: Descargar la pieza en un extremo 1 de la mesa (eje x)"></comando>
+<comando id="M24" tipo="Auxiliar" modal="false" tip="Pallets: Cargar la pieza en extremo 2 de la mesa (eje x)"></comando>
+<comando id="M25" tipo="Auxiliar" modal="false" tip="Pallets: Descargar la pieza en un extremo 2 de la mesa (eje x)"></comando>
+
+
+
+
+
+
+<comando id="F1" tipo="Operacion" modal="false" tip="Suma"></comando>
+<comando id="F2" tipo="Operacion" modal="false" tip="Resta"></comando>
+<comando id="F3" tipo="Operacion" modal="false" tip="Multiplicación"></comando>
+<comando id="F4" tipo="Operacion" modal="false" tip="División"></comando>
+<comando id="F5" tipo="Operacion" modal="false" tip="Raíz cuadrada"></comando>
+<comando id="F6" tipo="Operacion" modal="false" tip="Raíz cuadrada de la suma de los cuadrados"></comando>
+<comando id="F7" tipo="Operacion" modal="false" tip="Seno"></comando>
+<comando id="F8" tipo="Operacion" modal="false" tip="Coseno"></comando>
+<comando id="F9" tipo="Operacion" modal="false" tip="Tangente"></comando>
+<comando id="F11" tipo="Operacion" modal="false" tip="Comparación"></comando>
+<comando id="F12" tipo="Operacion" modal="false" tip="Parte entera"></comando>
+<comando id="F13" tipo="Operacion" modal="false" tip="Parte entera más uno"></comando>
+<comando id="F14" tipo="Operacion" modal="false" tip="Parte entera menos uno"></comando>
+<comando id="F15" tipo="Operacion" modal="false" tip="Valor absoluto"></comando>
+<comando id="F16" tipo="Operacion" modal="false" tip="Complementación"></comando>
+<comando id="F17" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F18" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F19" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F20" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F21" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F22" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F23" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F24" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F25" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F26" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F27" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F28" tipo="Operacion" modal="false" tip="Funciones especiales"></comando>
+<comando id="F30" tipo="Operacion" modal="false" tip="AND"></comando>
+<comando id="F31" tipo="Operacion" modal="false" tip="OR"></comando>
+<comando id="F32" tipo="Operacion" modal="false" tip="XOR"></comando>
+<comando id="F33" tipo="Operacion" modal="false" tip="NOR"></comando>
+
+
+</comandos>

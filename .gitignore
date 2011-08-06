@@ -1,0 +1,32 @@
+#java specific
+*.class
+
+#netbeans ignore personal stuff 
+nbproject/private/
+/bin
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+#android
+.metadata
+tmp/**
+.DS_Store
+*.tmp
+*.bak
+tmp/**/*
+*.swp
+*~.nib
+Thumbs.db
+Desktop.ini
+*~
+*.apk
+bin
+gen
+local.properties
+#*.jar
+.classpath
